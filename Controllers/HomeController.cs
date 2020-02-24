@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MovieApp.Models;
 
 namespace MovieApp.Controllers
 {
@@ -7,12 +8,10 @@ namespace MovieApp.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            //TODO: Implement Realistic Implementation
-            return View();
+            return View(Repository.Movies);
         }
         public IActionResult Contact()
         {
-          //TODO: Implement Realistic Implementation
           return View();
         }
     }
