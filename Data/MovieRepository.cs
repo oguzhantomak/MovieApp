@@ -4,11 +4,11 @@ using MovieApp.Models;
 
 namespace MovieApp.Data
 {
-    public static class ProductRepository //Örnek oluşturulamayan, uygulamaya özel tek bir Repository Class'ı
+    public static class MovieRepository //Örnek oluşturulamayan, uygulamaya özel tek bir Repository Class'ı
     {
         private static List<Movie> _movies = null;
 
-        static ProductRepository()
+        static MovieRepository()
         {
             _movies = new List<Movie>()
             {

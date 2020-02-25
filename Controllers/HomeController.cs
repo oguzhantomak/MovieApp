@@ -9,12 +9,20 @@ namespace MovieApp.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View(ProductRepository.Movies);
+            MovieCategoryModel model = new MovieCategoryModel();
+            model.Categories=CategoryRepository.Categories;
+            model.Movies=MovieRepository.Movies;
+            
+            return View(model);
         }
 
         public IActionResult Details(int id)
         {
-            return View(ProductRepository.GetById(id));
+
+            MovieCategoryModel model = new MovieCategoryModel();
+            model.Categories=CategoryRepository.Categories;
+            model.Movie=MovieRepository.GetById(id);
+            return View(model);
         }
         
         public IActionResult Contact()
