@@ -56,5 +56,7 @@ namespace MovieApp.Data
         {
             return _categories.FirstOrDefault(i => i.Id == id);
         }
+
+        // test
     }
 }
