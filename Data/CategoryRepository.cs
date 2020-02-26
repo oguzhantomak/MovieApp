@@ -18,22 +18,22 @@ namespace MovieApp.Data
 
                 },
                 new Category(){
-                    Id=1,
+                    Id=2,
                     Name="Macera"
 
                 },
                 new Category(){
-                    Id=1,
+                    Id=3,
                     Name="Aksiyon"
 
                 },
                 new Category(){
-                    Id=1,
+                    Id=4,
                     Name="Dram"
 
                 },
                 new Category(){
-                    Id=1,
+                    Id=5,
                     Name="Gizem"
 
                 },
