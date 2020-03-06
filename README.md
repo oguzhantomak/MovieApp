@@ -1,6 +1,10 @@
-# MovieApp
+# Movie App
 
-![Banner](https://github.com/oguzhantomak/MovieApp/blob/master/MovieAppMain.png?raw=true) <br/>
+## Details
+![Movie App Banner](https://github.com/oguzhantomak/MovieApp/blob/master/MovieAppGif.gif?raw=true) <br/><br/><br/>
+## Main Screen
+![Movie App Banner](https://github.com/oguzhantomak/MovieApp/blob/master/MovieAppMain.png?raw=true)
+<br/><br/><br/>
 .NET Core Movie App <br/>
 ### Purpose
 This is my first project with .NET CORE. The purpose of the project is to list the information that exists in the repository by category with its MVC structure on the web side.
